@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Title</title>
+    <script type="text/javascript">
+        var clickCount = 0;
+        function main() {
+            ++clickCount;
+            //alert("Clicked " + clickCount + " time(s)");
+            document.getElementById('stringTest').innerText = " Clicked " + clickCount + " time(s)";
+        }
+    </script>
+</head>
+<body>
+    <button onclick="main()">Test</button>
+    <span id="stringTest"> Hello World</span>
+</body>
+</html>
